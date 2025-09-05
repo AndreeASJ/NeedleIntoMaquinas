@@ -1,0 +1,43 @@
+{
+  "name": "eisenholz-machinery",
+  "version": "1.0.0",
+  "description": "EISENHOLZ - 3D Interactive Industrial Machinery Experience",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'Build already complete - this is the dist folder'",
+    "deploy": "echo 'Deploy to GitHub Pages via GitHub Actions'",
+    "serve": "npx serve . -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreeASJ/NeedleIntoMaquinas.git"
+  },
+  "keywords": [
+    "3d",
+    "webgl",
+    "needle-engine",
+    "unity",
+    "threejs",
+    "industrial",
+    "machinery",
+    "interactive",
+    "iframe",
+    "mrxplatform"
+  ],
+  "author": "EISENHOLZ Team",
+  "license": "PROPRIETARY",
+  "homepage": "https://andreeasj.github.io/NeedleIntoMaquinas/",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
